@@ -13,7 +13,7 @@
 }
 
 #services .row:nth-child(2) {margin-top: 3%;}
-#services .card-title {font-size: 1.7vw !important;}
+#services .card-title {font-size: 24px !important;}
 @media screen and (max-width: 1100px) {#services .card-title {font-size: 28px !important;}}
 
 #services .card i {
@@ -28,7 +28,7 @@
 #customers .card {width: 65%; border: 0px;}
 
 #services .card i {
-    font-size: 2vw;
+    font-size: 27px;
     position: relative;
     top: 20px;
     left: 20px;
