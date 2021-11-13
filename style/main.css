@@ -105,19 +105,10 @@ nav.navbar {background: rgb(255, 253, 253) !important;}
     font-family: Poppins-Medium;
     padding-left: 15px;
     float: right !important;
-    font-size: 1.2vw;
 }
 
 .container-fluid {padding: 100px 50px 100px 50px !important;}
-@media screen and (min-width: 1600px) {.container-fluid {padding: 120px 80px 120px 80px !important;}}
-@media screen and (min-width: 1800px) {.container-fluid {padding: 140px 100px 140px 100px !important;}}
 
-@media screen and (min-width: 1600px) {.nav-item {padding: 30px 15px 30px 15px !important;}}
-@media screen and (min-width: 2000px) {.nav-item {padding: 40px 20px 40px 20px !important;}}
-@media screen and (min-width: 2400px) {.nav-item {padding: 60px 25px 60px 25px !important;}}
-@media screen and (min-width: 2800px) {.nav-item {padding: 100px 50px 100px 50px !important;}}
-
-.dropdown-item {font-size: 1.2vw;}
 .dropdown-item.active, .dropdown-item:active {background-color: #333 !important;}
 .navbar-light .navbar-toggler {border: 0;}
 .navbar-light .navbar-toggler-icon {font-size: 25px;}
