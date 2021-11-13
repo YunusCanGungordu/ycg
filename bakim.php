@@ -34,7 +34,7 @@
 <body>
 <div class="eye">
     <a href="https://yunuscangungordu.com.tr">
-      <img src="https://images.squarespace-cdn.com/content/v1/54b57aebe4b03b8a5aa20704/1542522330318-BKWR2R033RGQ82URZUHR/eye.gif?format=500w" height="200px" draggable="false">
+      <img src="https://static.wixstatic.com/media/8d61d9_40b49511d5474bb0bc319c8d61e3245a~mv2.gif" height="200px" draggable="false">
     </a>
 </div>
 <!-- JS -->
