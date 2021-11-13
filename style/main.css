@@ -80,7 +80,7 @@ html, body {scroll-behavior: smooth;}
    }
 }
 
-nav.navbar {background: rgb(255, 253, 253) !important;}
+nav.navbar {background: rgb(255, 253, 253) !important; box-shadow: 0 .250rem .25rem rgba(0,0,0,.075)!important; padding: 18px;}
 .navbar-brand {padding-left: 1.5%;}
 
 .nav-item {
