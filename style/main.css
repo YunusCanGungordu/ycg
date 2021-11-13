@@ -114,7 +114,7 @@ nav.navbar {background: rgb(255, 253, 253) !important;}
 .navbar-light .navbar-toggler-icon {font-size: 25px;}
 
 .btn.btn-primary {
-    font-size: 1.2vw;
+    font-size: 16px;
     color: #222;
     background: transparent;
     border: 2px solid #333;
@@ -139,7 +139,7 @@ nav.navbar {background: rgb(255, 253, 253) !important;}
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {background-color: #333 !important; border-color: #333 !important;}
 .btn-primary.focus, .btn-primary:focus {box-shadow: 0 0 0 0 !important;}
 
-.main-logo {font-size: 4vw;}
+.main-logo {font-size: 55px;}
 .card {border: 0px !important;}
 .animated-img-main {width: 100%;}
 .single-grid-animation {height: 300px;}
@@ -158,14 +158,12 @@ nav.navbar {background: rgb(255, 253, 253) !important;}
     font-weight: 600;
     font-style: normal;
     color: #333333;
-    font-size:2.2vw;
 }
 
 .card-text {
     font-family: Poppins-Regular;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.2vw;
     line-height: 1.75em;
     color: #666;
 }
@@ -191,7 +189,7 @@ footer {
     font-weight: 400;
     font-style: normal;
     color: #333333;
-    font-size: 1.2vw;
+    font-size: 18px;
 }
 
 footer i {color: #333333; font-weight: 400;}
