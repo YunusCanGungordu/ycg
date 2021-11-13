@@ -30,6 +30,7 @@
   <!-- CSS -->
 </head>
 <body>
+<?php header('Location: bakim.php'); ?>
 <?php include ('loader.php'); include ('header.php'); ?>
 <main>
   <div class="container-fluid" id="shop-info" data-aos="fade-down" style="padding-top: 1% !important;">
