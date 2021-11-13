@@ -1,4 +1,5 @@
 html, body {scroll-behavior: smooth;}
+main {padding-bottom: 45px !important; padding-top: 45px !important;}
 
 ::-webkit-scrollbar {
     width: 10px;
@@ -97,7 +98,7 @@ nav.navbar {background: rgb(255, 253, 253) !important; box-shadow: 0 .250rem .25
 .navbar-light .navbar-toggler-icon {font-size: 25px;}
 
 .btn.btn-primary {
-    font-size: 16px;
+    font-size: 15px;
     color: #222;
     background: transparent;
     border: 2px solid #333;
