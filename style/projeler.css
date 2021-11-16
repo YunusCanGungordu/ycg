@@ -1,3 +1,6 @@
-#projects-main-text {padding-bottom: 1% !important; padding-top: 1% !important; position: relative; bottom: 35px;}
-.btn.btn-primary {font-size: 2vw;}
-@media screen and (max-width: 992px) {.animated-img-main {display: none;}}
+#projects-main-text {padding-top: 10px !important;}
+#dogayikorunet .card {width: 65%;}
+.project-logo {width: 100px !important;}
+#media-links i { font-size: 60px !important; transition: 200ms all; cursor: pointer;}
+#media-links i:hover {transform: scale(1.15);}
+#media-links a {color: #212529 !important;}
