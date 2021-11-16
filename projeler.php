@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="tr">
 <head>
@@ -36,33 +35,68 @@
   <!-- CSS -->
 </head>
 <body>
-<?php header('Location: bakim.php'); ?>
 <?php include ('loader.php'); include ('header.php'); ?>
   <main>
-    <div class="container-fluid" id="projects-main-text">
+    <div class="container-fluid" id="projects-main-text" data-aos="fade-up">
       <div class="row">
-        <div class="col-lg-8 d-flex align-items-center justify-content-center">
-          <div class="card" style="border: none;">
-            <div class="card-body">
-              <h3 class="card-title">Projeler</h3>
-              <p class="card-text">
-                Birtakım amaçlar doğrultusunda geliştirdiğim ve ortaya koyduğum projelerim ve çalışmalarım var. Zaman zaman iş üzerine,
-                zaman zaman ise boş zamanlarımda kendimi geliştirmek ve sınamak amacıyla yaptığım çalışmalarım mevcut.
-                <br><br>
-                Aşağıdaki yönlendirmeleri takip ederek gerek bütün çalışmalarıma ulaşabilirsiniz. 
-                Bazı yazılım, web projelerim açık kaynak kodlu olmakla beraber geliştirmeye tamamen açık.
-              </p>
-              <a href="http://github.com/yunuscangungordu" target="_blank" rel="noopener noreferrer">
-                <button class="btn btn-primary"><i class="fab fa-github"></i></button>
-              </a>
-              <a href="https://www.behance.net/yunuscgungord" target="_blank" rel="noopener noreferrer">
-                <button class="btn btn-primary" style="margin-left: 3%;"><i class="fab fa-behance"></i></button>
-              </a>
-            </div>
+        <div class="col-12 d-flex align-items-center justify-content-center">
+          <div class="card">
+            <h3 class="card-title">Projeler</h3>
+            <p class="card-text">
+              Ekip halinden bağımsız olarak yöneticliğini ve geliştirciliğini üstlendiğim projeler bulunamkta.
+              Bu nitelikteki projelerime sayfanın devamında ulaşabilir, bağlantıları kullanarak daha detaylı bilgi
+              edinme şansına sahip olabilirsiniz.
+            </p>
           </div>
         </div>
-        <div class="col-lg-4 d-flex align-items-center justify-content-center">
-          <img src="http://38.media.tumblr.com/7058a1dcde9ec09622bb421c6bc53eeb/tumblr_nc4r8dO0Q51rpco88o1_500.gif" class="animated-img-main" draggable="false" height="60%">
+      </div>
+      <div class="row">
+        <div class="col-12 d-flex align-items-center justify-content-center">
+          <img src="https://i.pinimg.com/originals/ae/27/f1/ae27f1825fe9d7035d18a9095c565c36.gif" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid" id="dogayikorunet" data-aos="fade-down">
+      <div class="row">
+        <div class="col-12 d-flex align-items-center justify-content-center" style="padding: 25px;">
+          <img class="project-logo" src="https://i.pinimg.com/originals/8d/31/44/8d31440ebf18d6588c4e005a0c187240.png">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 d-flex align-items-center justify-content-center">
+          <div class="card">
+            <h4 class="card-title text-center">Doğayı korumak için harekete geç!</h4>
+            <p class="card-text">
+              Doğa ile insan iç içedir, bölünmez bir bütündür. Toplumun her bir ferdinin kuşkusuz bütün doğaya karşı sorumlulukları vardır.
+              <br><br>
+              Ne durumda olursak olalım hiçbir şey için geç değil. Toplum olarak doğanın aleyhine atacağımız her bir adım erken ve mübahtır.
+              <strong>neden</strong> ve <strong>ne zaman</strong> gibi soruların kıymetiharbiyesi yoktur.
+            </p>
+            <center>
+              <a href="https://dogayikoru.net">
+                <button type="button" class="btn btn-primary" data-aos="fade-right">Göz at&NonBreakingSpace;<i class="fad fa-leaf"></i></button>
+              </a>
+            </center>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid" id="media-links" data-aos="fade-up">
+      <div class="row" style="padding: 25px;">
+        <div class="col-12 d-flex align-items-center justify-content-center">
+          <a href="http://github.com/yunuscangungordu" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>&NonBreakingSpace;&NonBreakingSpace;<a href="http://behance.net/yunuscangungord" target="_blank" rel="noopener noreferrer"><i class="fab fa-behance-square"></i></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 d-flex align-items-center justify-content-center">
+          <div class="card">
+            <p class="card-text">
+              Bütün bunların yanında elbette gerek boş zamanlarımda gerekse çalışma dönemlerimde irili ufaklı birçok
+              çalışma yapıyorum. Bütün bu çalışmalarımın çoğunu çeşitli platformlarda herkese açık bir şekilde paylaşmaktayım.
+              Yukarıdaki platformlar üzerinden herkese açık bütün yazılım ve tasarım çalışmalarıma ulaşabilir, kullanabilir ve geri
+              bildirim gönderebilirsiniz.
+            </p>
+          </div>
         </div>
       </div>
     </div>
