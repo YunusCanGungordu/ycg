@@ -31,7 +31,7 @@
   <!-- CSS -->
 </head>
 <body>
-<?php include ('header.php') ?>
+<?php include ('loader.php'); include ('header.php'); ?>
 <main>
   <div class="container-fluid" id="contact" data-aos="fade-up" data-aos-anchor-placement="top-center">
     <div class="row">
@@ -105,6 +105,60 @@
         </a>
       </div>
     </div>
+  </div>
+  <div class="container-fluid" id="other-platforms">
+    <div class="row">
+      <div class="col-lg-6 d-flex align-items-center justify-content-center">
+        <img src="https://cdn.dribbble.com/users/2538166/screenshots/5412483/dribbbbble.gif" width="80%">
+      </div>
+      <div class="col-lg-6 d-flex align-items-center justify-content-center">
+        <div class="card">
+            <h3 class="card-title">Diğer Platformlar</h3>
+            <p class="card-text">
+              Aktif olarak kullandığım ve kullanmakta olduğum yukarıdaki platformların yanı sıra aşağıda da kullandığım diğer sosyal medya
+              platformlarına ulaşabilirsiniz. Genel anlamda kişisel iletişim ve soru için aşağıdaki bağlantılara başvurabilirsiniz.
+            </p>
+          </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 d-flex-align-items-center">
+        <div class="card">
+          <a href="http://instagram.com/yunuscangungordu" target="_blank" rel="noopener noreferrer">
+          <center>
+            <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_2ks3pjua.json"  background="transparent" class="media-logo"  speed="1"  style="width: 75px;"  loop  autoplay></lottie-player>
+          </center>
+          </a>
+          <p class="card-text">
+            Yukarıdaki sosyal medya ikonuna tıklayarak benimle bu bağlantı üzerinden kişisel olarak iletişime geçebilirsiniz.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-4 d-flex-align-items-center">
+        <div class="card">
+          <a href="https://www.r10.net/profil/140757-yunuscangngrd.html" target="_blank" rel="noopener noreferrer">
+          <center>
+            <img src="https://cdn.r10.net/editor/109279/2443354623.png" class="media-logo" class="r10">  
+          </center>
+          </a>
+          <p class="card-text">
+            Yukarıdaki sosyal medya ikonuna tıklayarak benimle bu bağlantı üzerinden kişisel olarak iletişime geçebilirsiniz.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-4 d-flex-align-items-center">
+        <div class="card">
+            <a href="https://www.youtube.com/channel/UC57zTqSPgXkw-8Piyl8DZzQ" target="_blank" rel="noopener noreferrer">
+            <center>
+              <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_emod42y4.json"  background="transparent" class="media-logo" speed="1"  style="width: 75px;"  loop  autoplay></lottie-player>
+            </center>
+            </a>
+            <p class="card-text">
+              Yukarıdaki sosyal medya ikonuna tıklayarak benimle bu bağlantı üzerinden kişisel olarak iletişime geçebilirsiniz.
+            </p>
+          </div>
+        </div>
+      </div>
   </div>
 </main>
 <?php include ('footer.php'); ?>
