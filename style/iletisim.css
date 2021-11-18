@@ -1,4 +1,4 @@
-#contact {padding-top: 3% !important;}
+#contact {padding-top: 1px !important;}
 #contact-info {width: 100%; height: 50%; border: 0px;}
 #media {margin-top: 50px;}
 #contact a {text-decoration: none !important;}
@@ -10,6 +10,19 @@
 #media .card i {font-size: 2vw !important; animation: discord infinite 0.5s alternate-reverse;}
 @media screen and (max-width: 1110px) {#media .card i {font-size: 22px !important;}}
 @keyframes discord { from {transform: scale(1);} to {transform: scale(1.2);}}
+@media screen and (max-width: 992px) {#other-platforms .row:nth-child(2) .col-md-4 {margin: 20px;}}
+
+.media-logo {
+    width: 75px;
+    cursor: pointer;
+    filter: grayscale(90%);
+    -webkit-filter: grayscale(90%);
+    -moz-filter: grayscale(90%);
+    transition: 200ms all;
+    margin: 15px 0px 15px 0px;
+}
+
+.media-logo:hover {filter: none;}
 
 #media .card .icon, #media .card i {
     width: 30.88px;
