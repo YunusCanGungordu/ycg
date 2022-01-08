@@ -81,6 +81,31 @@
         </div>
       </div>
     </div>
+    <div class="container-fluid" id="astrophotography_05" data-aos="fade-down">
+      <div class="row">
+        <div class="col-12 d-flex align-items-center justify-content-center" style="padding: 25px;">
+          <img class="project-logo" src="https://freedesignfile.com/upload/2017/08/telescope-icon-vector.png">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 d-flex align-items-center justify-content-center">
+          <div class="card">
+            <h4 class="card-title text-center">Gökyüzünü benimle beraber keşfet!</h4>
+            <p class="card-text">
+              Sonsuz evrenin daimmi yansıması hemen yanı başımıza, yukarıda. Gökyüzü adeta bir zaman makinesi gibi...
+              <br><br>
+              Çocukluğumdan beri içimde barındırdığım uzay merakının yanı sıra, hayatımın son birkaç senesinde bu hobiyi pratikte icra ediyorum.
+              Yaptığım gözlemleri, yakaladığım kareleri bütün dünyaya açık bir şekilde paylaşıyorum.
+            </p>
+            <center>
+              <a href="https://www.instagram.com/astrophotography_05/">
+                <button type="button" class="btn btn-primary" data-aos="fade-right">Göz at&NonBreakingSpace;<i class="space-station-moon-alt"></i></button>
+              </a>
+            </center>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="container-fluid" id="media-links" data-aos="fade-up">
       <div class="row" style="padding: 25px;">
         <div class="col-12 d-flex align-items-center justify-content-center">
